@@ -1,0 +1,12 @@
+First create a class that will hold all of the cost variables
+books, food, travel, etc.
+Another class, semester that will be derived from cost so it can use the member functions and in this class there will be more detailed functions for handling certain calculations such as tuition, booksCost, foodCost etc.
+Another function to display the interface and menu
+Another function of the selection menu
+Another function to handle the selection and edit the selected option
+  (using setters and getters to update information and thus update the whole program)
+
+In the main()
+  instantiate three different classes, each in respect to the type of semester. IE full, part, or half time
+
+  then using a do{}while loop, to help loop the program and update information

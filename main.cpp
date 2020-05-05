@@ -11,7 +11,8 @@ int main()
   Semester part;
   Semester half;
 
-  char option;
+  char option = '\0';
+
   full.setCreditHour(12.0);
   part.setCreditHour(9.0);
   half.setCreditHour(6.0);
@@ -23,7 +24,7 @@ int main()
     option = validateChar(option);
     handleOption(full, part,half, option);
 
-  }while(option != 'x' && option != 'X');
+  }while(option != 'X' && option != 'x');
 
   cout << "Program Exited" << endl;  
 return 0;
